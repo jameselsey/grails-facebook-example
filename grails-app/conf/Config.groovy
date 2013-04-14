@@ -89,3 +89,13 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.jameselsey.demos.grailsfacebookexample.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.jameselsey.demos.grailsfacebookexample.UserAppRole'
+grails.plugins.springsecurity.authority.className = 'com.jameselsey.demos.grailsfacebookexample.AppRole'
+
+
+grails.plugins.springsecurity.facebook.domain.classname='com.jameselsey.demos.grailsfacebookexample.FacebookUser'
+grails.plugins.springsecurity.facebook.appId='204704716334693'
+grails.plugins.springsecurity.facebook.secret='e12cc8f4c7c285f8282cc7b08c63391e'
